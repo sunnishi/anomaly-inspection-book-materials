@@ -4,9 +4,9 @@
 
 ## 教材をダウンロードする
 
-**[教材ZIPをダウンロード（v1.0.0／約24 MB）](https://github.com/sunnishi/anomaly-inspection-book-materials/releases/download/v1.0.0/AI%E5%A4%96%E8%A6%B3%E6%A4%9C%E6%9F%BB_%E5%AE%9F%E8%A1%8C%E6%95%99%E6%9D%90.zip)**
+**[教材ZIPをダウンロード（v1.0.0／約24 MB）](https://github.com/sunnishi/anomaly-inspection-book-materials/releases/download/v1.0.0/anomaly_inspection_materials_v1.0.0.zip)**
 
-GitHubへのログインは不要です。`AI外観検査_実行教材.zip` を保存し、展開してください。[リリース一覧](https://github.com/sunnishi/anomaly-inspection-book-materials/releases)から選ぶ場合も同じファイル名を使います。「Source code (zip)」は実行教材一式ではありません。
+GitHubへのログインは不要です。`anomaly_inspection_materials_v1.0.0.zip` を保存し、展開してください。[リリース一覧](https://github.com/sunnishi/anomaly-inspection-book-materials/releases)から選ぶ場合も同じファイル名を使います。「Source code (zip)」は実行教材一式ではありません。
 
 展開後の `code/README.md` に、環境作成・追試・自分の画像で試す手順があります。
 
