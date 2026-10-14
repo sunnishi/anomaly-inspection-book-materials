@@ -4,9 +4,9 @@
 
 ## 教材をダウンロードする
 
-**[教材ZIPをダウンロード（v1.0.0／約24 MB）](https://github.com/sunnishi/anomaly-inspection-book-materials/releases/download/v1.0.0/anomaly_inspection_materials_v1.0.0.zip)**
+**[教材ZIPをダウンロード（v2.0.0／約24 MB）](https://github.com/sunnishi/anomaly-inspection-book-materials/releases/download/v2.0.0/anomaly_inspection_materials_v2.0.0.zip)**
 
-GitHubへのログインは不要です。`anomaly_inspection_materials_v1.0.0.zip` を保存し、展開してください。[リリース一覧](https://github.com/sunnishi/anomaly-inspection-book-materials/releases)から選ぶ場合も同じファイル名を使います。「Source code (zip)」は実行教材一式ではありません。
+GitHubへのログインは不要です。`anomaly_inspection_materials_v2.0.0.zip` を保存し、展開してください。[リリース一覧](https://github.com/sunnishi/anomaly-inspection-book-materials/releases)から選ぶ場合も同じファイル名を使います。「Source code (zip)」は実行教材一式ではありません。
 
 展開後の `code/README.md` に、環境作成・追試・自分の画像で試す手順があります。
 
@@ -16,7 +16,8 @@ GitHubへのログインは不要です。`anomaly_inspection_materials_v1.0.0.z
 - 公開データVisA PCB1の実写50枚と公式マスク20枚、固定した分割表
 - 本文に対応するスコア・判定・異常マップ・条件変化の保存済み結果
 - 自分で用意した画像の分割準備と、フォルダー検査のスクリプト
-- 19件のテストと、データ・コードの出典および利用条件
+- 基本19件と数学12件の試験、データ・コードの出典および利用条件
+- 内容増補版第21〜28章の数学計算、バンク容量64／128／256／512の事後比較と保存済み結果
 
 初回はPython3.10の仮想環境を作成し、`requirements.txt` の依存ライブラリを導入します。学習済みResNet18重み約45MBは `download_weights.py` が公式配布元から取得します。重み自体はZIPには含めていません。
 
@@ -26,12 +27,16 @@ GitHubへのログインは不要です。`anomaly_inspection_materials_v1.0.0.z
 
 50枚は便宜的な部分集合です。工場での精度を証明する試験ではありません。保存済み結果を上書きせず、追試には別の出力名を使ってください。Windows実機、カメラ・PLC・自動排出、生産ラインでの動作は未検証です。
 
+旧版教材v1.0.0は[以前のリリース](https://github.com/sunnishi/anomaly-inspection-book-materials/releases/tag/v1.0.0)に残しています。増補版ではv2.0.0を使用します。
+
+バンク比較は同じ評価画像を使う事後比較です。容量を選ぶための未使用データでの検証ではありません。数学計算は標準ライブラリのみ、バンク比較には重みと基本環境が必要です。
+
 ## ファイルの確認
 
-v1.0.0のSHA-256：
+v2.0.0のSHA-256：
 
 ```text
-2fe91641764598014925d826d28710bebddcad9b450bf52e00886aa71074d300
+0219a33631ab89d7cd8e7e601b75272aa9c45a726bfce31d34fd4f760ea41282
 ```
 
 ZIP内部の `SHA256-MANIFEST.json` に各ファイルの照合値を収録しています。
